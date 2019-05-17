@@ -22,32 +22,9 @@
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   <link rel="stylesheet" href="style.css">
   
-  <script language="javascript"> 
-        function setCookie(nome, valor, dias){ 
-        diasms = (new Date()) .getTime() + 1000 * 3600 * 24 * dias; 
-        dias = new Date(diasms); 
-        expires = dias.toGMTString(); 
-        document.cookie = escape(nome) + "=" + escape(valor) + "; expires=" + expires; 
-        } 
-  </script>
   
 </head>
-    <script language="javascript">
-            function contador(){
-        if (!document.cookie){
-        setCookie("cookie", "1", 365);
-        document.write("Total Visitas : 1");
-        } else {
-        var cont = document.cookie;
-        var dividindo = cont.split("=");
-        //document.write(dividindo[1]);
-        var numero = parseInt(dividindo[1]);
-        var soma = numero + 1;
-        document.write("Visitas : " + soma );
-        setCookie("cookie", soma, 365);
-        }
-        }
-    </script>
+    
 <body>
   <section class="menu cid-rqAmcKFhtp" once="menu" id="menu1-h">
 
@@ -157,7 +134,6 @@
                     Email:ledamaria1985@gmail.com&nbsp;<br>Phone: (98) 984688450&nbsp;<br><br></p>
             </div>
             <div class="col-12 col-md-3 mbr-fonts-style display-7">
-                <h5 class="pb-3"><script>contador()</script></h5>
                 <h5 class="pb-3">Obrigado pela visita</h5>
                 
             </div>
@@ -229,6 +205,7 @@
   <script src="assets/gallery/player.min.js"></script>
   <script src="assets/gallery/script.js"></script>
   <script src="assets/slidervideo/script.js"></script>
+  <script>alert("Seja Bem-Vindo a Art's Fest!")</script>
   
   
 </body>
