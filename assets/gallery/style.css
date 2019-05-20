@@ -6,8 +6,9 @@
 .mbr-gallery .mbr-gallery-item {
   position: relative;
   display: inline-block;
-  width: 25%;
-  cursor: pointer; }
+  width: 30%;
+  cursor: pointer;
+   padding:20px;}
 
 @media (max-width: 768px) {
   .mbr-gallery .mbr-gallery-item {
